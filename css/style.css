@@ -38,6 +38,9 @@ a, a:hover {
     float: right;
 }
 
+.text-right {text-align: right}
+.text-left {text-align: left}
+
 .container {
     width: 940px;
     margin: 0 auto;
@@ -188,3 +191,60 @@ h5.title {
 .p-item-footer h5.title {
     margin-bottom: 4px;
 }
+
+#about {
+    text-align: center;
+}
+
+.about-wrap {
+    padding-top: 70px;
+}
+
+.about-text {
+    width: 35%;
+}
+
+.about-img {
+    width: 30%;
+}
+
+.about-img:after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 94px;
+    width: 3px;
+    background: #f1f1f1;
+}
+
+.about-img img, .about-link {
+    display: inline-block;
+    height: 177px;
+    width: 177px;
+    border: 7px solid #f1f1f1;
+    border-radius: 50%;
+}
+
+.about-text h5 {
+    line-height: 24px;
+}
+
+.about-text p {
+    line-height: 24px;
+    font-size: 16px;
+    color: #777;
+}
+
+.about-text h5 span {
+    text-transform: uppercase;
+}
+
+.about-link {
+    padding-top: 25px;
+    font: bold 18px/30px Arial, sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #fed136;
+    text-shadow: 0 1px rgba(0,0,0,.3);
+}
+
