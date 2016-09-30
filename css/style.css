@@ -248,3 +248,172 @@ h5.title {
     text-shadow: 0 1px rgba(0,0,0,.3);
 }
 
+#team {
+    text-align: center;
+    background: #f7f7f7;
+}
+
+.team-item img {
+    border: 7px solid #ffffff;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+
+.team-item {
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+    margin-top: 85px;
+}
+
+.cat {
+    font: 14px/14px Arial, sans-serif;
+    color: #777777;
+}
+
+.social {margin-top: 10px;}
+
+
+.social a {
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 3px;
+    border: 3px solid #222222;
+    background: url("../img/social-sprite.png") no-repeat;
+}
+
+.social a.ic-twitter {
+    background-position: 0 0;
+}
+
+.social a.ic-facebook{
+    background-position: -40px 0;
+}
+
+.social a.ic-pn {
+    background-position: -80px 0;
+}
+
+.social a.ic-gl {
+    background-position: -120px 0 ;
+}
+
+.social a:hover {
+    border: 3px solid #ffffff;
+}
+
+.social a.ic-twitter:hover {
+    border-color: #00aced;
+    background-color: #00aced;
+    background-position: 0 -40px;
+}
+
+.social a.ic-facebook:hover {
+    border-color: #3b5998;
+    background-color: #3b5998;
+    background-position: -40px -40px;
+}
+
+.social a.ic-pn:hover {
+    border-color: #cb2028;
+    background-color: #cb2028;
+    background-position: -80px -40px;
+}
+
+.social a.ic-gl:hover {
+    border-color: #d95232;
+    background-color: #d95232;
+    background-position: -120px -40px;
+}
+
+
+.team-info {
+    margin-top: 45px;
+}
+
+#brand {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#brand a {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+#brand a:last-child {
+    margin-right: 0;
+}
+
+#brand img {vertical-align: middle}
+
+#contact {
+    text-align: center;
+    background: #222 url("../img/maps-bg.png") no-repeat right bottom;
+}
+
+#contact h2.title {
+    color: #ffffff;
+}
+
+#message .left,
+#message .right {
+    width: 48%;
+}
+
+#message {
+    padding-top: 70px;
+}
+
+#message input[type="text"],
+#message textarea {
+    width: 100%;
+    background: #fff;
+    box-shadow: none;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font: bold 14px/14px Arial, sans-serif;
+    color: #222;
+}
+
+#message input[type="text"] {
+    height: 50px;
+    border: 1px solid #cccccc;
+}
+
+#message textarea {
+    height: 210px;
+    border: none;
+    resize: none;
+}
+
+::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font: bold 14px/14px Arial, sans-serif;
+    color: #bbb;
+}
+
+::-moz-placeholder {
+    text-transform: uppercase;
+    font: bold 14px/14px Arial, sans-serif;
+    color: #bbb;
+}
+
+#copyright {
+    padding: 25px 0;
+}
+
+#copyright .social {
+    margin-top: 0;
+    margin-left: 365px;
+}
+
+#copyright p {
+    margin-top: 10px;
+    font: 14px/14px Arial, sans-serif;
+    color: #555;
+}
